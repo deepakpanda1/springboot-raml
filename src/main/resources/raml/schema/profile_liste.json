@@ -1,0 +1,8 @@
+{
+  "type": "array",
+  "description": "Liste von Profilen",
+  "additionalProperties": true,
+  "items": {
+    "$ref": "profil"
+  }
+}

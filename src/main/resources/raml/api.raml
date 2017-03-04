@@ -1,0 +1,11 @@
+#%RAML 0.8
+---
+title: "API Dokumentation"
+version: v1
+baseUri: http://localhost:8080/{version}
+
+schemas:
+  - profile_liste: !include schema/profile_liste.json
+  - profil: !include schema/profil.json
+
+/v1/profile: !include profile.raml
