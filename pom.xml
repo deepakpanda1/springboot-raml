@@ -71,7 +71,7 @@
         <version>0.4.11</version>
         <configuration>
           <imageName>janosch/${project.artifactId}</imageName>
-          <dockerDirectory>src/main/docker</dockerDirectory>
+          <dockerDirectory>src/main/dock</dockerDirectory>
           <resources>
             <resource>
               <targetPath>/</targetPath>
