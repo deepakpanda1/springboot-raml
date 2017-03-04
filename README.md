@@ -13,7 +13,7 @@ docker-compose up
 # Stoppen 
 docker-compose down
 # Manueller Test
-curl localhost:8080/profile
+curl localhost:8080/v1/profile
 
 # Plugins
 - RAML
