@@ -1,7 +1,3 @@
-/**
- * Adorsys
- * 27.01.2017
- */
 package de.janosch.springbootraml.rest;
 
 import org.junit.Test;
